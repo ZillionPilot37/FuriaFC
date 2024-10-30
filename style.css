@@ -1,0 +1,96 @@
+body{
+    background-color: #000000;
+}
+
+header {
+    display: flex;                /* Alinha o conteúdo na horizontal */
+    align-items: center;       /* Centraliza verticalmente os itens */
+    justify-content: center;     
+    background-color: #000012;    /* Cor de fundo entre azul escuro e preto */
+    padding: 20px;                /* Espaçamento interno */
+    color: #ffffff;               /* Cor do texto branca */
+}
+
+header h1 {
+    margin: 0;                    /* Remove margem do título */
+    font-size: 30px;              /* Tamanho da fonte */
+    margin-right: 20px;           /* Espaço entre o título e a logo */
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    display: flex;  
+    background-color: #f0f0f0; 
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    background-color: #1c0081; 
+}
+
+nav a img {
+    border-radius: 40%; /* Torna a imagem redonda */
+    transition: transform 0.3s; /* Efeito de transição */
+}
+
+nav a img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+div {
+    display: flex;                    /* Alinha imagem e texto na mesma linha */
+    align-items: center;               /* Centraliza o texto verticalmente em relação à imagem */
+    background: linear-gradient(to right, #000000, #0a0a33); /* Gradiente de preto para azul escuro */
+    padding: 20px;                     /* Espaçamento interno */
+    margin-bottom: 10px;               /* Espaçamento entre cada div */
+    border-radius: 10px;               /* Bordas arredondadas */
+    color: #ffffff;                    /* Cor do texto */
+}
+
+/* Ajuste das imagens */
+div img {
+    width: 200px;                      /* Define a largura da imagem */
+    height: 200px;                     /* Define a altura da imagem */
+    margin-left: 40px;                 /* Espaço entre a imagem e o texto */
+    border-radius: 10px;               /* Bordas arredondadas para as imagens */
+                    /* Ajuste da imagem para preencher o espaço */
+    transform: scale(1.1);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;          /* Organiza o texto verticalmente */
+}
+
+/* Título do jogador */
+.info h3 {
+    margin: 0;                       /* Remove margem */
+    font-size: 1.5em;                /* Tamanho da fonte do título */
+}
+
+/* Estilo do parágrafo com as informações do jogador */
+.info p {
+    margin: 5px 0;                   /* Margem vertical entre as linhas de informações */
+    line-height: 1.5;                /* Altura das linhas */
+    font-size: 1em;                  /* Tamanho da fonte */
+}
+
+main{
+    color: #f0f0f0;
+}
+
+
+footer{
+    display: flex;  
+    background-color: #f0f0f0; 
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color: #1c0081;
+    border: 10px;
+}
